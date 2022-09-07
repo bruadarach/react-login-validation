@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #222;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+fieldset {
+  border: 0 none;
+}
+
+button,
+input,
+textarea {
+  font-size: 100%;
+  vertical-align: baseline;
+  line-height: normal;
+  font: inherit;
+}
+
+input:focus {
+  border: 3px solid rgb(48, 130, 197);
+  outline: 4px solid rgb(223, 238, 249);
+  outline-offset: -2px;
+}
+
+button {
+  cursor: pointer;
+}
